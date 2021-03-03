@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  line-height: 1.4rem;
+  background-color: #ddd;
+}
+
+p {
+  padding: 0.75rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#text-primary {
+  color: orange;
+  font-weight: 500;
+}
+
+#navbar {
+  display: flex;
+  background-color: #fff;
+  padding: 1rem;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: white;
+  padding-right: 1.2rem;
+}
+
+#navbar ul li a:hover {
+  color: orange;
+  border-radius: 5px;
+}
+
+.continaer aside {
+  position: sticky;
+  top: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1000px auto;
+  text-align: center;
+}
+
+.container .home-content {
+  margin: 2rem;
+  padding: 1.5rem;
+}
+
+.container .home-title {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.container .home-content .home-cards {
+  margin: 1.5rem;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.container .home-content .home-cards .card-image {
+  background: url("../images/senate.jpg") no-repeat center center/cover;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.container .home-content .home-cards .card-title {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 1.2rem;
+}
+
+.container .home-content .home-cards .card-desc {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+}
